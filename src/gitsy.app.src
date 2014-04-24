@@ -1,0 +1,12 @@
+{application, gitsy,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { gitsy_app, []}},
+  {env, []}
+ ]}.
